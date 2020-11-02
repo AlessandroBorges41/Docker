@@ -10,7 +10,7 @@ LABEL maintainer="Alessandro S Borges"
 ### Variaveis de Ambiente
 ENV NODE_ENV=developer
 ENV PORT=3000
-### Informando que será copiaado tudo da pasta de origem para o caminho no container
+### Informando que será copiado tudo da pasta de origem para o caminho no container
 COPY . /var/www/node/Service_Node
 ### Informa qual será o Work Director (Diretório de Trabalho)
 WORKDIR /var/www/node/Service_Node 
