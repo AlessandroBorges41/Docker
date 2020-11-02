@@ -2,7 +2,7 @@
 Docker Scripts and Studies
 
 
-## Criando um imagem simples para trabalhar com container docker um ambiente NODEJS em Windows 
+## Criando um imagem simples para trabalhar com container docker e um ambiente NODEJS em Windows 
 
 FROM node:latest
 ### Informando o autor
