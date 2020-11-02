@@ -27,4 +27,4 @@ docker build é o comando
 #### -t para inserir uma tag na imagem, geralmente nome de que criou
 ##### Depois de executar terá sido criado uma imagem
 ##### para usar a imagem como um container, executar o comando abaixo:
-docker run -p 8080:3000 -v "e:\Docker_Repo\node\Service_Node:/var/www/node/Service_Node" -w "/var/www/node/Service_Node"  --name Node_pluginbot node npm start
+docker run -d --name Environment_Node -p 8080:3000 alessandroasb/node
